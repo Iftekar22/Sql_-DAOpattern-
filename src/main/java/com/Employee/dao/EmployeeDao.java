@@ -16,5 +16,21 @@ public interface EmployeeDao {
 	
 	public Boolean deleteEmployee(int empId);
 	
+    public Boolean CreateTable(String sql);
+	
+	public List<Employee> innerJoin();
+	
+	public List<Employee> leftJoin();
+	
+	public List<Employee> rightJoin();
+	
+	public List<Employee> fullJoin();
+	
+    public List<Employee> GroupByQueryCount(String qry);
+	
+	public List<Employee> GroupByQueryMax(String qry);
+	
+	public List<Employee> GroupByQuerySum(String qry);
+	
 
 }

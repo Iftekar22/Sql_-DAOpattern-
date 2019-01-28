@@ -6,6 +6,12 @@ public class Employee {
 	private String country;
 	private String city;
 	private int zipCode;
+	
+	
+    private String age;
+    private int pId;
+    private String mobile;
+    
 	public String getName() {
 		return name;
 	}
@@ -41,6 +47,25 @@ public class Employee {
 	}
 	public void setZipCode(int zipCode) {
 		this.zipCode = zipCode;
-	}	 
-
+	}
+	public String getAge() {
+		return age;
+	}
+	public void setAge(String age) {
+		this.age = age;
+	}
+	public int getpId() {
+		return pId;
+	}
+	public void setpId(int pId) {
+		this.pId = pId;
+	}
+	public String getMobile() {
+		return mobile;
+	}
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+    
+	
 }
